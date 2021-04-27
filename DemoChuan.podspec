@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DemoChuan'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DemoChuan.'
+  s.summary          = 'A short description of DemoChuanưerwer.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/nvtinh368/DemoChuan'
+  s.homepage         = 'https://github.com/tinhnv3001/DemoChuan'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'nvtinh368' => 'tinhnv@diachiso.vn' }
-  s.source           = { :git => 'https://github.com/nvtinh368/DemoChuan.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/tinhnv3001/DemoChuan.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_version = '5.0'
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'DemoChuan/Classes/**/*'
+  s.source_files = 'Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'DemoChuan' => ['DemoChuan/Assets/*.png']
